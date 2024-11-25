@@ -99,6 +99,5 @@ This API provides endpoints to manage products, customers, and bills in a busine
 
 ## Link de Postman
 Puedes acceder a la colección de Postman en el siguiente enlace:  
-[Documentación de Postman](https://procesosdelnegocio1.postman.co/workspace/4e387bf0-6c1e-4968-8bf5-7d9d87470d65)
 
-![Postman Logo](https://www.postman.com/downloads/postman-logo-orange.svg)
+[<img src="https://assets.getpostman.com/common-share/postman-logo-horizontal-320x132.png" height="30">](https://procesosdelnegocio1.postman.co/workspace/4e387bf0-6c1e-4968-8bf5-7d9d87470d65)
