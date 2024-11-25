@@ -50,7 +50,7 @@ const customer = new Schema({
     }
     
   }, {
-    timestamps: true,
+    timestamps: false,
     versionKey: false
   });
 

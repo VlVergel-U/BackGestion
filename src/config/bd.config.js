@@ -1,7 +1,7 @@
-import mongoose from 'mongoose';
-import dotenv from 'dotenv'
+import mongoose from "mongoose";
+import dotenv from "dotenv";
 
-dotenv.config()
+dotenv.config();
 
 const user = process.env.db_user;
 const password = process.env.db_password;
@@ -13,9 +13,9 @@ const uri = `mongodb+srv://${user}:${password}@${clusterName}.mongodb.net/${dbNa
 const connectionWithMongo = async () => {
   try {
     await mongoose.connect(uri);
-    console.log('Connected to MongoDB');
+    console.log("Connected to MongoDB");
   } catch (e) {
-    console.log('Connection error', e);
+    console.log("Connection error", e);
   }
 };
 

@@ -18,7 +18,7 @@ const product = new Schema({
         min: [1, 'El stock debe ser al menos 1'],
       }, 
   }, {
-    timestamps: true,
+    timestamps: false,
     versionKey: false
   });
 

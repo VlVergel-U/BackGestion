@@ -10,7 +10,7 @@ async function main() {
     try {
         const server = express();
         await connectionWithMongo();
-        mongoose.connection.db.dropDatabase();
+        // mongoose.connection.db.dropDatabase();
         await loadClients();
         await loadProducts();
         server.use(express.json());
